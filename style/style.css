@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+img{
+	border: none;
+}
+
+body{
+	background: #dad8d3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #9e9e9e;
+}
+
+h1, h2, h3, h4 {
+	color: #939393;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#karkas{
+	max-width: 1200px;
+	min-width: 980px;
+	margin: 0 auto;
+}
+
+#head{
+	padding: 30px 40px 50px 0;
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	margin: 25px 50px 0 0;
+	overflow: hidden;
+}
+
+#head h1{
+	float: left;
+	margin-top: 37px;
+}
+
+#head p{
+	float: right;
+	overflow: hidden;
+}
+
+#head p img{
+	float: left;
+	margin: 10px;
+}
+
+#content-wriper{
+	background: #fff;
+	overflow: hidden;
+}
+
+#menu{
+	background: #e7e6e2;
+	margin-bottom: 20px;
+}
+
+#menu ul{
+	overflow: hidden;
+	padding: 30px;
+	list-style: none;
+	font: bold 14px "Trebuchet";
+
+}
+
+#menu ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #413f40;
+	padding: 5px 20px;
+}
+
+#menu ul li.active a{
+	background: #f45300;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #c84502;
+}
+
+#content-main{
+	padding: 0 30px;
+	border-bottom: solid 10px #615f5d;
+}
+
+#slogan-main{
+	overflow: hidden;
+	width: 100%;
+}
+
+.slogan{
+	float: left;
+	width: 33%;
+	margin-bottom: 20px;
+}
+
+.slogan div{
+	padding-right: 40px;
+	font: 12px "Trebuchet";
+}
+
+.slogan div h2{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	color: #2e2c2d;
+	overflow: hidden;
+}
+
+.slogan div h2 img{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#future{
+	margin-bottom: 30px;
+}
+
+#future img{
+	width: 100%;
+}
+
+#servise-main{
+	margin: 0 0 0 20;
+	overflow: hidden;
+}
+
+.servise h2{
+	margin-bottom: 10px;
+	color: #2e2c2d;
+}
+
+.servise{
+	float: left;
+	width: 25%;
+}
+
+.servise div{
+	padding-right: 30px; 
+}
+
+.servise p{
+	margin-bottom: 20px; 
+}
+
+#work{
+	background: #f9f7f1;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#work h2{
+	width: 62%;
+	float: left; 
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+#work a{
+	float: right;
+	width: 38%;
+}
+
+#work a img{
+	display: block;
+	margin: 0 auto;
+}
+
+#bottom-content-block{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+#bottom-content-block h2{
+	font-size: 14px;
+	color: #343233;
+	margin-bottom: 20px;
+}
+
+#bottom-content-left{
+	float: left;
+	width: 66%;
+}
+
+.review{
+	float: left;
+	width: 43%;
+	margin-right: 7%;
+}
+
+.rewiew-head{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.rewiew-head img{
+	float: left;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.rewiew-head h3{
+	margin-bottom: 10px;
+}
+
+#bottom-content-right{
+	float: right;
+	width: 34%;
+}
+
+.news-block{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.news-block img {
+	float: left;
+	margin-right: 20px;
+}
+
+.news-block a{
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.news-block h3{
+	margin-bottom: 5px;
+}
+
+#footer-main{
+	background: #4a4744;
+	padding: 40px 30px 30px 30px;
+	color: #848484;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#footer-main h3{
+	color: #f7f5ee;
+	margin-bottom: 10px;
+}
+
+#footer-main a{
+	text-decoration: none;
+	list-style: none;
+	color: #f7f5ee;
+}
+
+#fotter-block-right ul{
+	list-style: none;
+}
+
+#fotter-block-right ul li{
+	margin-bottom: 5px;
+}
+
+#fotter-block-left {
+	float: left; 
+	width: 60%;
+	margin-right: 6%;
+}
+
+#fotter-block-right{
+	float: right;
+	width: 34%;
+}
+
+#footer-copy{
+	overflow: hidden;
+	background: #3b3836;
+	padding: 30px 30px 30px  30px;
+}
+
+#footer-copy img{
+	float: left;
+}
+
+#footer-copy p{
+	float: right;
+}
